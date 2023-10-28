@@ -9,13 +9,13 @@ Django está escrito en Python y ofrece un enfoque basado en opiniones para el d
 
 A continuación, se describen los seis proyectos que forman parte de este curso y lo que se hace en cada uno:
 
-### Proyecto 1: [Nombre del Proyecto 1]
+### Proyecto 1: [Fourtenteller](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/fortunteller)
 
 - [ ] Descripción del Proyecto 1.
 - [ ] Pasos y tareas involucrados en el Proyecto 1.
 - [ ] Recursos y enlaces relevantes.
 
-### Proyecto 2: [Nombre del Proyecto 2]
+### Proyecto 2: [Tourist Attractions](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
 
 - [ ] Descripción del Proyecto 2.
 - [ ] Pasos y tareas involucrados en el Proyecto 2.
