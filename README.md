@@ -21,7 +21,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 - [ ] Pasos y tareas involucrados en el Proyecto 2.
 - [ ] Recursos y enlaces relevantes.
 
-### Proyecto 3: [Nombre del Proyecto 3]
+### Proyecto 3: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangodjitney)
 
 - [ ] Descripción del Proyecto 3.
 - [ ] Pasos y tareas involucrados en el Proyecto 3.
