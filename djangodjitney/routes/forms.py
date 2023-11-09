@@ -1,7 +1,6 @@
 from django import forms
 from .models import Stop, Line, Station
 
-
 class StopForm(forms.ModelForm):
   class Meta:
     model = Stop
