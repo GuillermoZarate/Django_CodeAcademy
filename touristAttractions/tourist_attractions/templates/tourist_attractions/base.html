@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body>
+        <div id="iden"><a href="{% url 'home' %}">Take me home</a></div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
+

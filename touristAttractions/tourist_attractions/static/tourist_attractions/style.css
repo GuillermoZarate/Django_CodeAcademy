@@ -1,5 +1,5 @@
 
-table, th, td {
+table, td {
     border: 1px solid black;
 }
 table {
@@ -17,4 +17,9 @@ tr:nth-child(odd) {
 body {
     background-color: #e8f4f8;
     margin: 40px 20px 10px;
+}
+
+th{
+    height: 10px;
+    border: 1px solid black;
 }

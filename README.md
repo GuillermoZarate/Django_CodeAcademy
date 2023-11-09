@@ -21,13 +21,13 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 - [ ] Pasos y tareas involucrados en el Proyecto 2.
 - [ ] Recursos y enlaces relevantes.
 
-### Proyecto 3: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangodjitney)
+### Proyecto 3: [Djaunty Rent-a-Bike](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/BikeRental)
 
 - [ ] Descripción del Proyecto 3.
 - [ ] Pasos y tareas involucrados en el Proyecto 3.
 - [ ] Recursos y enlaces relevantes.
 
-### Proyecto 4: [Nombre del Proyecto 4]
+### Proyecto 4: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangodjitney)
 
 - [ ] Descripción del Proyecto 4.
 - [ ] Pasos y tareas involucrados en el Proyecto 4.
