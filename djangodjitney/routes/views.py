@@ -19,3 +19,16 @@ class LinesView(ListView):
     template_name = 'routes/lines.html'
     model = Line
 
+class CreateLineView(CreateView):
+  model = Line
+  form_class = LineForm
+  template_name = 'routes/add_line.html'
+
+class UpdateLineView(UpdateView):
+  model = Line
+  form = LineForm
+  template = 'routes/update_line.html'
+class DeleteLineView(DeleteView):
+    model = Line
+    success_url = '/lines'  # Redirect to "/lines" after successful deletion
+    template_name = 'routes/delete_line.html'
