@@ -26,9 +26,49 @@ class CreateLineView(CreateView):
 
 class UpdateLineView(UpdateView):
   model = Line
-  form = LineForm
-  template = 'routes/update_line.html'
+  form_class = LineForm
+  template_name = 'routes/update_line.html'
+
 class DeleteLineView(DeleteView):
     model = Line
     success_url = '/lines'  # Redirect to "/lines" after successful deletion
     template_name = 'routes/delete_line.html'
+
+class StationsView(ListView):
+  model = Station
+  template_name = 'routes/stations.html'
+
+class CreateStationsView(CreateView):
+  model = Station
+  form_class = StationForm
+  template_name = 'routes/add_station.html'
+
+class UpdateStationsView(UpdateView):
+  model = Station
+  form_class = StationForm
+  template_name = 'routes/update_station.html'
+
+class DeleteStationsView(DeleteView):
+    model = Station
+    success_url = '/station'  # Redirect to "/lines" after successful deletion
+    template_name = 'routes/delete_station.html'
+
+
+class StopView(ListView):
+  model = Stop
+  template_name = 'routes/stops.html'
+
+class CreateStopView(CreateView):
+  model = Stop
+  form_class = StopForm
+  template_name = 'routes/add_stop.html'
+
+class UpdateStopView(UpdateView):
+  model = Stop
+  form_class = StationForm
+  template_name = 'routes/update_stop.html'
+
+class DeleteStopView(DeleteView):
+    model = Stop
+    success_url = '/stops'  # Redirect to "/lines" after successful deletion
+    template_name = 'routes/delete_stop.html'

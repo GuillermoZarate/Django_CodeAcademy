@@ -35,8 +35,8 @@
         <nav class="navbar">
             <a class="nav-item" href="{% url 'home' %}">Home</a>
             <a class="nav-item" href="{% url 'lines' %}">Lines</a>
-            {% comment %} <a class="nav-item" href="{% url 'stations' %}">Stations</a> {% endcomment %}
-            {% comment %} <a class="nav-item" href="{% url 'stops' %}">Stops</a> {% endcomment %}
+            <a class="nav-item" href="{% url 'stations' %}">Stations</a> 
+            <a class="nav-item" href="{% url 'stops' %}">Stops</a> 
         </nav>
         </header>
             <main>{% block content %}{% endblock %}</main>
