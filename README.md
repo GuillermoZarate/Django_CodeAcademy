@@ -33,7 +33,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 - [ ] Pasos y tareas involucrados en el Proyecto 4.
 - [ ] Recursos y enlaces relevantes.
 
-### Proyecto 5: [Nombre del Proyecto 5]
+### Proyecto 5: [Tourist Attractions with Forms](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions_V2)
 
 - [ ] Descripción del Proyecto 5.
 - [ ] Pasos y tareas involucrados en el Proyecto 5.
