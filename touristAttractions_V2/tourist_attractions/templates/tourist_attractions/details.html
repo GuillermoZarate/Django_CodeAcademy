@@ -13,13 +13,13 @@
         <th>Attraction</th>
         <th>State</th>
     </tr>
-    {% for item in attractions|dictsort:'homeState' %}
-    {% if item.homeState|lower == statename %}
-    <tr>
-        <td>{{ item.attractionName }}</td>
-        <td>{{ item.homeState }}</td>
-    </tr>
-    {% endif %}
+    {% for item in attractions|dictsort:'homeState.stateName' %}
+        {% if item.homeState == statename %}
+            <tr>
+                <td>{{ item.attractionName }}</td>
+                <td>{{ item.homeState }}</td>
+            </tr>
+        {% endif %}
     {% endfor %}
 </table>
-{% endblock %}
+{% endblock %}s
