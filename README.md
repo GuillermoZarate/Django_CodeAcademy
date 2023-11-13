@@ -46,7 +46,7 @@ Below, the six projects that are part of this course are described along with wh
   10. Add conditional logic in the loop to display attractions only for the selected state.
 
 
-### Project 3: [Djaunty Rent-a-Bike](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djauntyRent-a-bike)
+### Project 3: [Djaunty Rent-a-Bike](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/BikeRental)
 
 - **Project Description:**
 
@@ -65,7 +65,7 @@ Below, the six projects that are part of this course are described along with wh
   10. Optionally, extend the project by adding extra fields to models or incorporating metadata.
 
 
-### Project 4: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangoDjitney)
+### Project 4: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangodjitney)
 
 - **Project Description:**
 
@@ -100,7 +100,7 @@ Below, the six projects that are part of this course are described along with wh
       - Add a schedule to jitney lines to show the times each train stops at a given station.
 
 
-### Project 5: [Tourist Attractions with Forms](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
+### Project 5: [Tourist Attractions with Forms](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions_V2)
 
 - **Project Description:**
 
@@ -125,7 +125,7 @@ Below, the six projects that are part of this course are described along with wh
   16. Optionally, add more fields to the models in models.py and update the forms to include them.
 
 
-### Project 6: [Weekly Dessert](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/weeklyDessert)
+### Project 6: [Weekly Dessert](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/cafeteria)
 
 - **Project Description:**
 
