@@ -9,13 +9,14 @@ Skills gain with this course:
 - Deploy a Django app to the web.
 
 
-## Proyectos
+## Projects
 
-A continuación, se describen los seis proyectos que forman parte de este curso y lo que se hace en cada uno:
+Below, the six projects that are part of this course are described along with what is done in each one.
 
 ### Project 1: [Fourtenteller](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/fortunteller)
 
 - **Project Description:**
+
   In the "Fortune Teller" project, we will construct a web app that provides users with random positive messages to brighten their day. Leveraging Django's MTV pattern, the website will call a view function upon loading to select a random fortune from a predefined list. This fortune will then be populated into a template and sent back to the client. The project will guide you through building a Django project from scratch, starting with an empty workspace.
 
 - **Steps and Tasks:**
@@ -29,6 +30,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 ### Project 2: [Tourist Attractions](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
 
 - **Project Description:**
+
   "Tourist Attractions" is an application that enables users to explore a list of tourist attractions in each state. Users have the flexibility to specify a particular state, gaining access to more detailed information about its attractions. In this project, you will focus on creating templates using Django, incorporating concepts from the templates lesson. This involves extending base templates, integrating static files, and applying filters to variables within the template.
 
 - **Steps and Tasks:**
@@ -47,6 +49,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 ### Project 3: [Djaunty Rent-a-Bike](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djauntyRent-a-bike)
 
 - **Project Description:**
+
   Djaunty Rent-a-Bike aims to modernize its bike rental system by transitioning from a paper and pencil method to a Django-based model. The focus is on implementing Django models, databases, and CRUD operations. The simplified schema revolves around three main entities: Bike, Renter, and Rental. The project addresses the specific details of each entity, such as bike types, colors, renter information, and rental details.
 
 - **Tasks:**
@@ -65,6 +68,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 ### Project 4: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangoDjitney)
 
 - **Project Description:**
+
   The Django Djitney project involves creating a user-friendly site for the Codes-ville Official Department of Transportation to showcase and manage the routes of their new commuter train, the Django Djitney. The application utilizes Django models, views, and URLs to handle information related to jitney lines, stations, and stops. The provided models—Line, Station, and Stop—are interconnected to represent the structure of the commuter train system.
 
 - **Tasks:**
@@ -99,6 +103,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 ### Project 5: [Tourist Attractions with Forms](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
 
 - **Project Description:**
+
   The "Tourist Attractions with Forms" project involves creating a Django web application for a local travel agency to manage tourist attractions and states. The goal is to allow users to add new attractions and states dynamically using forms. The project covers generic form creation, creating instances using forms, and ensuring form security.
 
 - **Tasks:**
@@ -120,11 +125,34 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
   16. Optionally, add more fields to the models in models.py and update the forms to include them.
 
 
-### Proyecto 6: [Weekly Dessert](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/cafeteria)
+### Project 6: [Weekly Dessert](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/weeklyDessert)
 
-- [ ] Descripción del Proyecto 6.
-- [ ] Pasos y tareas involucrados en el Proyecto 6.
-- [ ] Recursos y enlaces relevantes.
+- **Project Description:**
+
+  The "Weekly Dessert" project involves building a Django web application for a school cafeteria's dessert voting system. The application allows authenticated users to vote for their favorite dessert each week. The project focuses on implementing authentication, creating user accounts, securing paths, and using Django's admin interface to manage data.
+
+- **Tasks:**
+  1. Explore the provided code and models structure in the Django project for the weekly dessert application.
+  2. Create a superuser using the Python terminal and access the Django admin interface to manage data.
+  3. Import the Week and Choice models in admin.py and register them to appear on the /admin page.
+  4. Test the registration of models by creating a new dessert through the Choice model in the admin interface.
+  5. Open the Python shell and import the User model, then create a new user object with credentials.
+  6. Update urls.py to include Django's built-in authentication views for login, logout, and password change.
+  7. Modify the login.html template to render form fields for username and password.
+  8. Create a SignUp class-based view in views.py using CreateView, UserCreationForm, and "registration/signup.html".
+  9. Add a path for user registration in urls.py using the SignUp view and assign a name attribute.
+  10. Test user registration by navigating to /signup, completing the form, and logging in.
+  11. Import the logout function in views.py and create a logout view function, redirecting users to the index page.
+  12. Add a path for user logout in urls.py, use the logout view, and assign a name attribute.
+  13. Create a logout button in header.html, linking to the logout path.
+  14. Secure paths by importing login_required decorator, applying it to index and vote views.
+  15. Import LoginRequiredMixin and apply it to DetailsView and ResultsView class-based views for path security.
+  16. Verify the security measures by ensuring only authenticated users can access the home and voting pages.
+  17. Optionally experiment with rendered forms, add options in the admin interface, and customize SignUp view fields.
+  18. Secure other paths using the LoginRequiredMixin for class-based views.
+  19. Ensure the app is secured, allowing only authenticated and logged-in users to access it.
+  20. Review the project and optional challenges, experiment with form rendering, and add additional user fields to SignUp view.
+
 
 ## Recursos Adicionales
 - [Enlace al curso de CodeAcademy](https://www.codecademy.com/enrolled/paths/build-python-web-apps-with-django)
