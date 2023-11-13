@@ -1,43 +1,124 @@
 # Web app development projects with Dajngo
 
-Este repositorio se utiliza para almacenar todos los proyectos realizados como parte del curso "Build Python Web Apps with Django". 
+This repository stores all the projects developed as part of the "Build Python Web Apps with Django" course. Django, an open-source Python web development framework, enables you to swiftly create web applications. With a plethora of tools already provided by Django, you have the flexibility to pick and choose what you need to get the job done.
 
-## Resumen
-Django está escrito en Python y ofrece un enfoque basado en opiniones para el desarrollo web, lo que significa que conocerás cómo se estructuran los proyectos y tendrás un conjunto general de pautas sobre cómo dar vida a tus aplicaciones. Django viene con muchas herramientas ya proporcionadas, por lo que puedes elegir lo que necesitas para completar el trabajo.
+Skills gain with this course:
+
+- Apply Python skills for web development.
+- Build full-stack web applications.
+- Deploy a Django app to the web.
+
 
 ## Proyectos
 
 A continuación, se describen los seis proyectos que forman parte de este curso y lo que se hace en cada uno:
 
-### Proyecto 1: [Fourtenteller](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/fortunteller)
+### Project 1: [Fourtenteller](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/fortunteller)
 
-- [ ] Descripción del Proyecto 1.
-- [ ] Pasos y tareas involucrados en el Proyecto 1.
-- [ ] Recursos y enlaces relevantes.
+- **Project Description:**
+  In the "Fortune Teller" project, we will construct a web app that provides users with random positive messages to brighten their day. Leveraging Django's MTV pattern, the website will call a view function upon loading to select a random fortune from a predefined list. This fortune will then be populated into a template and sent back to the client. The project will guide you through building a Django project from scratch, starting with an empty workspace.
 
-### Proyecto 2: [Tourist Attractions](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
+- **Steps and Tasks:**
+  1. Start the Fortune Teller Project by creating a Django project named "fortuneteller."
+  2. Configure the project by navigating to the project folder and running migrations.
+  3. Test the project by starting the development server and accessing it through the browser.
+  4. Create a new app named "randomfortune" to eventually display fortunes randomly.
+  5. Install the new app by adding it to the list of installed apps in the Django project's settings.
+  6. Create an HTML template named "fortune.html" within the randomfortune app to format and display fortunes.
 
-- [ ] Descripción del Proyecto 2.
-- [ ] Pasos y tareas involucrados en el Proyecto 2.
-- [ ] Recursos y enlaces relevantes.
+### Project 2: [Tourist Attractions](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
 
-### Proyecto 3: [Djaunty Rent-a-Bike](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/BikeRental)
+- **Project Description:**
+  "Tourist Attractions" is an application that enables users to explore a list of tourist attractions in each state. Users have the flexibility to specify a particular state, gaining access to more detailed information about its attractions. In this project, you will focus on creating templates using Django, incorporating concepts from the templates lesson. This involves extending base templates, integrating static files, and applying filters to variables within the template.
 
-- [ ] Descripción del Proyecto 3.
-- [ ] Pasos y tareas involucrados en el Proyecto 3.
-- [ ] Recursos y enlaces relevantes.
+- **Steps and Tasks:**
+  1. Create a base template named base.html to establish a common structure for the application.
+  2. Add a link in the base template for users to navigate back to the home page.
+  3. Implement blocks in the base template for head and content to load assets and display page-specific content.
+  4. Develop the homepage (home.html) by extending the base template and styling it with a CSS file.
+  5. Add a welcoming message to the homepage and build a table to display attractions and their respective states.
+  6. Populate the table with attractions using Django Template Language (DTL) and apply sorting based on the state.
+  7. Create a details.html template to display a list of tourist attractions for a specific state.
+  8. Extend details.html from the base template, load the CSS sheet, and add a header indicating attractions for the selected state.
+  9. Create a table in details.html to list attractions for the selected state, and use DTL to iterate through attractions.
+  10. Add conditional logic in the loop to display attractions only for the selected state.
 
-### Proyecto 4: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangodjitney)
 
-- [ ] Descripción del Proyecto 4.
-- [ ] Pasos y tareas involucrados en el Proyecto 4.
-- [ ] Recursos y enlaces relevantes.
+### Project 3: [Djaunty Rent-a-Bike](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djauntyRent-a-bike)
 
-### Proyecto 5: [Tourist Attractions with Forms](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions_V2)
+- **Project Description:**
+  Djaunty Rent-a-Bike aims to modernize its bike rental system by transitioning from a paper and pencil method to a Django-based model. The focus is on implementing Django models, databases, and CRUD operations. The simplified schema revolves around three main entities: Bike, Renter, and Rental. The project addresses the specific details of each entity, such as bike types, colors, renter information, and rental details.
 
-- [ ] Descripción del Proyecto 5.
-- [ ] Pasos y tareas involucrados en el Proyecto 5.
-- [ ] Recursos y enlaces relevantes.
+- **Tasks:**
+  1. Plan the schema by examining the provided models.py.
+  2. Create the Bike model with fields for bike type and color, implementing a choice option for bike types.
+  3. Define the Renter model with fields for first name, last name, phone, and VIP status.
+  4. Implement a custom __str__ method for both Bike and Renter models to improve the readability of instances.
+  5. Develop the Rental model with foreign keys for Bike and Renter, date, and price fields.
+  6. Create a method, calc_price, within the Rental model to calculate the rental price based on specified conditions.
+  7. Set up the database schema using migrations.
+  8. Populate the database by creating instances of Bike, Renter, and Rental models.
+  9. Explore querying methods in the Python shell, including filtering, excluding, and reverse relationships.
+  10. Optionally, extend the project by adding extra fields to models or incorporating metadata.
+
+
+### Project 4: [The Django Djitney](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/djangoDjitney)
+
+- **Project Description:**
+  The Django Djitney project involves creating a user-friendly site for the Codes-ville Official Department of Transportation to showcase and manage the routes of their new commuter train, the Django Djitney. The application utilizes Django models, views, and URLs to handle information related to jitney lines, stations, and stops. The provided models—Line, Station, and Stop—are interconnected to represent the structure of the commuter train system.
+
+- **Tasks:**
+  1. Understand the context by examining the provided models (Line, Station, Stop) and their connections.
+  2. Review the existing templates (lines.html, stations.html, stops.html) to understand the required views and URLs.
+  3. Explore forms.py to understand how forms will be utilized for creating and updating views.
+  4. Navigate to views.py and review the provided code and imports.
+  5. Implement views for Lines:
+     - Create LinesView (ListView) to display jitney lines.
+     - Create CreateLineView (CreateView) for adding new jitney lines.
+     - Create UpdateLineView (UpdateView) for modifying existing jitney lines.
+     - Create DeleteLineView (DeleteView) for deleting jitney lines.
+  6. Test the functionality of the implemented views for Lines in the web browser.
+  7. Implement views for Stations:
+     - Create StationsView (ListView) to display stations.
+     - Create CreateStationView (CreateView) for adding new stations.
+     - Create UpdateStationView (UpdateView) for modifying existing stations.
+     - Create DeleteStationView (DeleteView) for deleting stations.
+  8. Test the functionality of the implemented views for Stations in the web browser.
+  9. Implement views for Stops:
+     - Create StopsView (ListView) to display stops.
+     - Create CreateStopView (CreateView) for adding new stops.
+     - Create UpdateStopView (UpdateView) for modifying existing stops.
+     - Create DeleteStopView (DeleteView) for deleting stops.
+  10. Test the functionality of the implemented views for Stops in the web browser.
+  11. Optionally enhance the app:
+      - Add a color field to lines and update templates for colored text.
+      - Add more fields to a station, such as age or last_cleaned_date.
+      - Add a schedule to jitney lines to show the times each train stops at a given station.
+
+
+### Project 5: [Tourist Attractions with Forms](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/touristAttractions)
+
+- **Project Description:**
+  The "Tourist Attractions with Forms" project involves creating a Django web application for a local travel agency to manage tourist attractions and states. The goal is to allow users to add new attractions and states dynamically using forms. The project covers generic form creation, creating instances using forms, and ensuring form security.
+
+- **Tasks:**
+  1. Examine the changes in models.py, noting the addition of verbose_name arguments for field display in generic forms.
+  2. Create forms.py and import forms from django and the State and Attraction models from .models.
+  3. Create StateCreateForm and AttractionCreateForm classes in forms.py, inheriting from forms.ModelForm.
+  4. Define Meta classes within StateCreateForm and AttractionCreateForm to specify the model and fields.
+  5. Import StateCreateForm and AttractionCreateForm in views.py, along with CreateView.
+  6. Create StateCreate class (CreateView) in views.py, specifying model, form_class, and template_name properties.
+  7. Create AttractionCreate class (CreateView) in views.py, following the same pattern as StateCreate.
+  8. Update urls.py to include paths for creating states and attractions, linking to the respective views.
+  9. Create templates for creating states (state_create_form.html) and attractions (attraction_create_form.html) inside templates/tourist_attractions/.
+  10. Extend templates from "tourist_attractions/base.html," load static, and create content blocks for each template.
+  11. Add *h1* and *form* elements to templates to display form headers and form inputs.
+  12. Update the template_name fields in StateCreate and AttractionCreate views to reference the respective templates.
+  13. Add get_absolute_url() method to the State and Attraction models in models.py, returning to the home page ("/tourist_attractions/").
+  14. In home.html, add links to the State and Attraction forms using the {% url %} template tag.
+  15. Test the application by creating states and attractions and verifying redirection to the home page.
+  16. Optionally, add more fields to the models in models.py and update the forms to include them.
+
 
 ### Proyecto 6: [Weekly Dessert](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/cafeteria)
 

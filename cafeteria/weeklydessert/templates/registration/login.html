@@ -10,7 +10,7 @@
       <div>
         {% csrf_token %}
           {% comment %} Add your form rendering tags below {% endcomment %}
-          
+        {{ form.as_p }}
         <input type="submit" value="Login"/>
       </div>
   </form>
