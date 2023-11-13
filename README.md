@@ -39,7 +39,7 @@ A continuación, se describen los seis proyectos que forman parte de este curso 
 - [ ] Pasos y tareas involucrados en el Proyecto 5.
 - [ ] Recursos y enlaces relevantes.
 
-### Proyecto 6: [Nombre del Proyecto 6]
+### Proyecto 6: [Weekly Dessert](https://github.com/GuillermoZarate/Django_CodeAcademy/tree/main/cafeteria)
 
 - [ ] Descripción del Proyecto 6.
 - [ ] Pasos y tareas involucrados en el Proyecto 6.
